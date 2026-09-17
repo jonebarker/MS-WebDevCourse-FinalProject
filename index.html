@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jonathan is a young student programmer learning .NET development, with projects, skills, and a growing portfolio."
+    />
+    <meta
+      name="keywords"
+      content="Jonathan, student programmer, .NET, C#, ASP.NET Core, portfolio"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Jonathan | .NET Student Developer</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header" role="banner">
+      <div class="nav-bar">
+        <a class="brand" href="#home" aria-label="Jonathan home">Jonathan</a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <nav id="site-navigation" class="site-nav" aria-label="Main navigation" role="navigation">
+        <ul>
+          <li><a href="#home" aria-current="page">Home</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content" role="main">
+      <section id="home" aria-labelledby="home-heading">
+        <h1 id="home-heading">Welcome</h1>
+      </section>
+
+      <section id="about-me" aria-labelledby="about-me-heading">
+        <h2 id="about-me-heading">About Me</h2>
+        <p>
+          I am a young student programmer named Jonathan, and I enjoy learning about
+          .NET development. I am passionate about building useful applications,
+          improving my coding skills, and exploring how modern technologies can solve
+          real-world problems.
+        </p>
+      </section>
+
+      <section id="skills" aria-labelledby="skills-heading">
+        <h2 id="skills-heading">Skills</h2>
+        <ul class="skill-list" role="list" aria-label="Common .NET developer skills">
+          <li>C#</li>
+          <li>ASP.NET Core</li>
+          <li>.NET MVC</li>
+          <li>Entity Framework</li>
+          <li>SQL Server</li>
+          <li>REST APIs</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>Git</li>
+          <li>Azure</li>
+          <li>Testing</li>
+        </ul>
+      </section>
+
+      <section id="projects" aria-labelledby="projects-heading">
+        <h2 id="projects-heading">Projects</h2>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <figure class="project-figure">
+              <img
+                src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=900&q=80"
+                alt="Laptop open on a desk with code visible, representing a web development project"
+              />
+            </figure>
+            <div class="project-content">
+              <h3>Project One</h3>
+              <p>
+                A simple web application that demonstrates clean design and interactive
+                functionality using HTML, CSS, and JavaScript.
+              </p>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <figure class="project-figure">
+              <img
+                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=900&q=80"
+                alt="Developer workspace with programming tools and a .NET application concept"
+              />
+            </figure>
+            <div class="project-content">
+              <h3>Project Two</h3>
+              <p>
+                A .NET-based project focused on building a small app or tool to manage
+                tasks, organize information, and improve productivity.
+              </p>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <figure class="project-figure">
+              <img
+                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80"
+                alt="Team collaborating around a table while reviewing software project work"
+              />
+            </figure>
+            <div class="project-content">
+              <h3>Project Three</h3>
+              <p>
+                A placeholder portfolio project showcasing my learning journey, coding
+                experiments, and progress as a student programmer.
+              </p>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        <form class="contact-form" action="#" method="post">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="Your email" />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message"></textarea>
+          </div>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
